@@ -14,9 +14,9 @@ Cheat Sheet Notes
    git commit -a -m 'commit to branch'
 
 7b) git checkout master - switches branch back to master if you need to make a hotfix  
-7c) git checkout -b hotfix - creates new branch for hotfix t
-7d) make change
-7e) git commit -a -m 'applied hotfix'
+7c) git checkout -b hotfix - creates new branch for hotfix  
+7d) make change  
+7e) git commit -a -m 'applied hotfix'  
 7f) git checkout master  
 7g) git merge hotfix  
 
