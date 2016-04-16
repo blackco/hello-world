@@ -10,4 +10,7 @@ Cheat Sheet Notes
 
 7) Branching
    git checkout -b myBranchRef
+    - make edit on the branch
+   git commit -a -m 'commit to branch'
+
 A README file created directly on GitHub
