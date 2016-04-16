@@ -8,7 +8,7 @@ Cheat Sheet Notes
 5) git status - at any time to see status of files  
 6) git checkout - reverts to last committed version in your local repository ( by permanently deleting, so health warning!)  
 
-7) Branching
+7) Branching ( see https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging)
    git checkout -b myBranchRef
     - make edit on the branch
    git commit -a -m 'commit to branch'
