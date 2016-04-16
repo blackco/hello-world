@@ -8,4 +8,6 @@ Cheat Sheet Notes
 5) git status - at any time to see status of files  
 6) git checkout - reverts to last committed version in your local repository ( by permanently deleting, so health warning!)  
 
+7) Branching
+   git checkout -b myBranchRef
 A README file created directly on GitHub
