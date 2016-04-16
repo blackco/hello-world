@@ -8,4 +8,10 @@ Cheat Sheet Notes
 5) git status - at any time to see status of files  
 6) git checkout - reverts to last committed version in your local repository ( by permanently deleting, so health warning!)  
 
+7b) git checkout master - switches branch back to master if you need to make a hotfix  
+7c) git checkout -b hotfix - creates new branch for hotfix t
+7d) make change
+7e) git commit -a -m 'applied hotfix'
+7f) git checkout master  
+7g) git merge hotfix  
 A README file created directly on GitHub
