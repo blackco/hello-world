@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Samples:Submitting Tabular Data</title>
+<style>
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+</style>
+</head>
+<body>
+
+<script language="javascript" src="submitTabularData.js">
+</script>
+
+<form action="submitTabularData.php" id="myform" method="POST">
+  <br><br>
+    <div class="divclass">
+
+	<INPUT type="button" value="Add Row" onclick="addRow('batsman')" />
+	<INPUT type="button" value="Delete Row" onclick="deleteRow('batsman')" />
+
+	<b>Batsman</b>
+        <table id="batsman" name="batsman">
+        <tr>
+	    <th>select</th>
+            <th>first</th>
+            <th>name</th>
+        </tr>
+        <tr>
+	    <TD><INPUT type="checkbox" name="chk[]"/></TD>
+            <td><input name='col1[]' style='border:0;outline:0;display:inline-block' value='Alistair'></td>
+            <td><input name='col2[]' style='border:0;outline:0;display:inline-block' value='Cook'></td>
+        </tr>
+        <tr>
+	    <TD><INPUT type="checkbox" name="chk[]"/></TD>
+            <td><input name='col1[]' style='border:0;outline:0;display:inline-block' value='Joe'></td>
+            <td><input name='col2[]' style='border:0;outline:0;display:inline-block' value='Root'></td>
+        </tr>
+        </table>
+
+	<br>
+		What is the level of your team?
+	<br>
+		 <input type="radio" name="standard" value="International" checked> International<br>
+  		 <input type="radio" name="standard" value="County"> County<br>
+  		 <input type="radio" name="standard" value="Village"> Village 
+
+	<br>
+
+        <INPUT type="button" value="Add Row" onclick="addRow('bowlers')" />
+        <INPUT type="button" value="Delete Row" onclick="deleteRow('bowlers')" />
+
+	<table id="bowlers" name="bowlers">
+        <tr>
+		<th>select</th>
+            	<th>first</th>
+            	<th>name</th>
+        </tr>
+        <tr>
+	    <TD><INPUT type="checkbox" name="chk1[]"/></TD>
+            <td><input name='col3[]' style='border:0;outline:0;display:inline-block' value='James'></td>
+            <td><input name='col4[]' style='border:0;outline:0;display:inline-block' value='Anderson'></td>
+        </tr>
+        <tr>
+		<TD><INPUT type="checkbox" name="chk1[]"/></TD>
+            <td><input name='col3[]' style='border:0;outline:0;display:inline-block' value='Stuart'></td>
+            <td><input name='col4[]' style='border:0;outline:0;display:inline-block' value='Broad'></td>
+        </tr>
+        </table>
+
+    </div>
+    <input type='submit' name='submit' value='Submit'>
+</form>
+
+</body>
+</html>
